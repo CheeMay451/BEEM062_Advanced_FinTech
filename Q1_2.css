@@ -1,0 +1,68 @@
+/* Reference: https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/ */
+
+/* Global styling */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Body styling */
+body{
+  background-color: lightpink;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Quiz container styling */
+.quiz-container{
+  background-color: white;
+  border-radius: 10px;
+  width: 600px;
+  overflow: hidden;
+}
+
+/* Quiz header styling */
+.quiz-header{
+  padding: 4rem;
+}
+
+/* Heading styling */
+h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+/* List styling */
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+/* List item styling */
+ul li{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+/* Label styling */
+ul li label{
+  cursor: pointer;
+}
+
+/* Button styling */
+button{
+  background-color: #ea4563;
+  color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
