@@ -1,0 +1,17 @@
+body{
+	background: beige;
+}
+
+h1{
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+	padding: 3px;
+	background-color: white;
+}
+
+#block{
+	padding: 10px;
+}
